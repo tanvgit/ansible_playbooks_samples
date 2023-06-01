@@ -6,4 +6,4 @@
    - name: git clone
      git:
       repo: 'https://github.com/ashokitschool/maven-web-app.git'
-      dest: /home/ansible/maven-web-app
+      dest: /home/ec2-user/maven-web-app
