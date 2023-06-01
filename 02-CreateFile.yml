@@ -3,5 +3,5 @@
   tasks:
     - name: Create file in all host nodes
       file: 
-        path: /home/ansible/hello.txt
+        path: /home/ec2-user/hello.txt
         state: touch
