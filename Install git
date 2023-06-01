@@ -1,0 +1,8 @@
+# Write a playbook to install git in all host nodes
+- hosts: all
+  become: true
+  tasks:
+    - name: install git
+      yum:
+        name: git
+        state: latest
